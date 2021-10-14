@@ -33,5 +33,5 @@ class LCATest(TestCase):
         root.left.left.left = Node(7)
         root.left.right.right = Node(8)
         self.assertEqual(findLCA(root, 8, 1), 1, "LCA of 8 and 1 is ")
-        self.assertEqual(findLCA(root, 7, 3), 1, "LCA of 8 and 1 is ")
+        self.assertEqual(findLCA(root, 7, 3), 1, "LCA of 7 and 3 is ")
         self.assertEqual(findLCA(root, 0, 1), -1, "LCA of 0 and 1 is ")
